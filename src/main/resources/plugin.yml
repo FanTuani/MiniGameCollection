@@ -1,4 +1,4 @@
 name: MiniGameCollection
-version: '${project.version}'
+version: '1.0'
 main: lwq.minigamecollection.MiniGameCollection
 api-version: 1.16

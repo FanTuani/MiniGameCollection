@@ -1,13 +1,15 @@
 package lwq.minigamecollection;
 
+import lwq.minigamecollection.BasicRules.BasicCancellers;
+import lwq.minigamecollection.BasicRules.Tips;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class MiniGameCollection extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        new BasicCancellers(this);
+        new Tips(this);
     }
 
     @Override
