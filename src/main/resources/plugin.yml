@@ -2,3 +2,8 @@ name: MiniGameCollection
 version: '1.0'
 main: lwq.minigamecollection.MiniGameCollection
 api-version: 1.16
+
+commands:
+  grassclearer:
+    description: enable grass clearer
+    usage: /<command>
